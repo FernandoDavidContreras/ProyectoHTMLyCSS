@@ -1,0 +1,982 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+div{
+    font-size: 16px;
+}
+
+body{
+    margin: 0px;
+    line-height: 1.5;
+}
+
+ 
+ul{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    
+}
+
+li{
+    display: inline;
+    padding: 5px 5px;
+}
+
+h1{
+    font-size: 44px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+
+
+/*--------------------Personalización del primer cuadro--------------------*/
+
+.lanzador-menu{
+    display: none;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: #d03b40;
+    left: 20%;
+    bottom: 20%;
+}
+
+.a1{
+    position: absolute;
+    width: 50px;
+    min-height: 8px;
+    background-color: #f5f0ed;
+    left: 19%;
+    top: 20%;
+}
+
+.a2{
+    position: absolute;
+    width: 50px;
+    min-height: 8px;
+    background-color: #f5f0ed;
+    left: 19%;
+    top: 45%;
+}
+
+.a3{
+    position: absolute;
+    width: 50px;
+    min-height: 8px;
+    background-color: #f5f0ed;
+    left: 19%;
+    top: 70%;
+}
+
+.cajon1{
+    width: 100%;
+    min-height: 900px;
+    background-image: url(ImaÌgenes/Fondo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.logo{
+    position: absolute;
+    width: 400px;
+    min-height: 40px;
+    left: 45px;
+    top: 10px;
+    background-image: url(ImaÌgenes/Logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.tituloP{
+    display: inline;
+    position: absolute;
+    color:#f5f0ed ;
+    font-size: 44px;
+    width: 500px;
+    min-height: 150px;
+    bottom:50%;
+    left: 40%;
+    text-align: center;
+    
+}
+
+.linea1{
+    display: line;
+    position: absolute;
+    width: 80px;
+    min-height: 3px;
+    background-color: #f5f0ed;
+    bottom: 48%;
+    left: 50%;
+
+}
+
+.parrafoP{
+    color: #f5f0ed;
+    position: absolute;
+    width: 500px;
+    min-height: 150px;
+    bottom: 26%;
+    left: 40%;
+    text-align: center;
+}
+
+.Lista a{
+    display: inline;
+    text-decoration: none;
+    color:#f5f0ed;
+    width: 20px;
+}
+
+.Lista{
+    position: absolute;
+    width: 500px;
+    left: 74%;
+    top: 2.5%;
+}
+
+/*---------------Aqui comienza la personalización de la segunda caja de la pagina web----------*/
+
+.cajon2{
+    position: relative;
+    float: left;
+    margin-top: auto;
+    margin-left: auto;
+    width: 50%;
+    min-height: 400px;
+    background-color: #d03b40;
+    text-align: center;
+}
+
+.tituloCajon2{
+    position: absolute;
+    bottom: 40%;
+    left: 40%;
+    text-align: center;
+    color: #ded6c0;
+}
+
+.parrafoCajon2{
+    position: absolute;
+    bottom: 20%;
+    left: 35%;
+    text-align: center;
+    color: #ded6c0;
+}
+
+/*-------------Aquí comienza la personalización de la tercera caja que va pegada a la seugnda----------------*/
+
+.cajon3 {
+    position: relative;
+    margin-top: auto;
+    margin-left: auto;
+    width: 50%;
+    min-height: 400px;
+    background-color: #ded6c0;
+  
+}
+
+.tituloCajon3{
+    position: absolute;
+    bottom: 40%;
+    left: 40%;
+    text-align: center;
+    color: #d03b40;
+}
+
+.parrafoCajon3{
+    position: absolute;
+    bottom: 20%;
+    left: 35%;
+    text-align: center;
+    color: #d03b40;
+}
+
+/*--------------Aquí cnoimenza la perzonalización de la cuarta caja---------*/
+
+.cajon4{
+    position:relative;
+    min-height: 600px;
+    width: 100%;
+    margin-top: auto;
+    margin-left: auto;
+    background-image: url(ImaÌgenes/Fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tituloCajon4{
+    position: absolute;
+    text-align: center;
+    color: #f5f0ed;
+    bottom: 70%;
+    left: 44%;
+}
+.linea2{
+    display: line;
+    position: absolute;
+    width: 80px;
+    min-height: 3px;
+    background-color: #f5f0ed;
+    bottom: 64%;
+    left: 49%;
+
+}
+
+.parrafoCajon4{
+    position: absolute;
+    bottom: 52%;
+    left: 38%;
+    text-align: center;
+    color: #f5f0ed;
+
+}
+
+.cosa44{
+    min-height: 50px;
+    width: 400px;
+    position: absolute;
+    bottom: 35%;
+    left: 40%;
+   
+    border: 3px solid #f5f0ed;
+}
+.cosa4{
+    min-height: 25px;
+    width: 340px;
+    position: absolute;
+    margin: 0px;
+    bottom: 17%;
+    left: 7%;
+    text-align: center;
+    color: #f5f0ed;
+}
+
+/*-------------Aqui comineza la perzonalisación de la quinta caja----------------*/
+
+/*--------Perzonalización de la sub primera caja---------------- */
+.cajon1C5{
+    position: relative;
+    float: left;
+    width: 50%;
+    min-height: 300px;
+    background-image: url(ImaÌgenes/Icono1.png);
+    background-repeat: no-repeat;
+    background-position: 25px 50px;
+}
+
+.titulo1c5{
+    position: absolute;
+    color: #241d1d;
+    margin: 0px;
+    top: 13%;
+    left: 23%;
+}
+
+.parrafo1c5{
+    position: absolute;
+    color: #241d1d;
+    margin: 0px;
+    top: 25%;
+    left: 23%;
+}
+/*--------Perzonalización de la sub segunda caja---------------- */
+.cajon2C5{
+    position: relative;
+    float: left;
+    width: 50%;
+    min-height: 300px;
+    background-image: url(ImaÌgenes/Icono3.png);
+    background-repeat: no-repeat;
+    background-position: 25px 50px;
+}
+.titulo2c5{
+    position: absolute;
+    color: #241d1d;
+    margin: 0px;
+    top: 13%;
+    left: 23%;
+}
+
+.parrafo2c5{
+    position: absolute;
+    color: #241d1d;
+    margin: 0px;
+    top: 25%;
+    left: 23%;
+}
+/*--------Perzonalización de la sub tercera caja---------------- */
+.cajon3C5{
+    position: relative;
+    float: left;
+    width: 50%;
+    min-height: 300px;
+    background-image: url(ImaÌgenes/Icono2.png);
+    background-repeat: no-repeat;
+    background-position: 25px 50px;
+}
+.titulo3c5{
+    position: absolute;
+    color: #241d1d;
+    margin: 0px;
+    top: 13%;
+    left: 23%;
+}
+
+.parrafo3c5{
+    position: absolute;
+    color: #241d1d;
+    margin: 0px;
+    top: 25%;
+    left: 23%;
+}
+/*--------Perzonalización de la sub cuarta caja---------------- */
+.cajon4C5{
+    position: relative;
+    float: left;
+    width: 50%;
+    min-height: 300px;
+    background-image: url(ImaÌgenes/Icono4.png);
+    background-repeat: no-repeat;
+    background-position: 25px 50px;
+}
+.titulo4c5{
+    position: absolute;
+    color: #241d1d;
+    margin: 0px;
+    top: 13%;
+    left: 23%;
+}
+
+.parrafo4c5{
+    position: absolute;
+    color: #241d1d;
+    margin: 0px;
+    top: 25%;
+    left: 23%;
+}
+
+/*-------------Aquí comienza la perzonalición de la sexta caja----------------*/
+
+.cajon6 {
+    position: relative;
+    float: left;
+    margin-top: auto;
+    margin-left: auto;
+    width: 50%;
+    min-height: 400px;
+    background-color: #ded6c0;
+  
+}
+
+.titulocajon6{
+    position: absolute;
+    bottom: 40%;
+    left: 43%;
+    text-align: center;
+    color: #d03b40;
+}
+
+.parrafocajon6{
+    position: absolute;
+    bottom: 20%;
+    left: 35%;
+    text-align: center;
+    color: #d03b40;
+}
+
+/*---------------Aquí comienza la personalización de la septima caja---------*/
+
+.cajon7{
+    position: relative;
+    float: left;
+    margin-top: auto;
+    margin-left: auto;
+    width: 50%;
+    min-height: 400px;
+    background-color: #d03b40;
+    text-align: center;
+}
+
+.titulocajon7{
+    position: absolute;
+    bottom: 40%;
+    left: 40%;
+    text-align: center;
+    color: #ded6c0;
+}
+
+.parrafocajon7{
+    position: absolute;
+    bottom: 20%;
+    left: 46%;
+    text-align: center;
+    color: #ded6c0;
+}
+
+/*-------------------------Aquií comineza la personalización de la octava caja-------------*/
+
+.cajon8{
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 150px;   
+    background-color: #241d1d;
+}
+.parrafocajon8{
+    color: #f5f0ed;
+    position: absolute;
+    bottom: 40%;
+    left: 3%;
+}
+
+/*-----------------------Personalización para tamaños de teléfonos---------------------*/
+
+@media screen and (min-width: 1351px) and (max-width: 1705px) {
+    
+    .Lista{
+        left: 64%;
+    }    
+
+    .cajon1{
+        background-size: 100% 100%;
+
+    }
+    /*-------------------------Movemos los parrafos de los sub cajones de la caja 5 ------------------------------------------*/
+    .titulo1c5,.titulo2c5,.titulo3c5,.titulo4c5,.parrafo1c5,.parrafo2c5,.parrafo3c5,.parrafo4c5{
+        left: 30%;
+    }
+}
+
+@media screen and (min-width: 1215px) and (max-width:1350px){
+    
+    /*-------------------------Aquí comienza la modificación para los elementos de la caja1------------------------------------*/
+    .tituloP{
+        left: 35%;
+    }
+
+    .linea1{
+        left: 48%;
+    }
+
+    .parrafoP{
+        left: 35%;
+    }
+
+    .Lista{
+
+        left: 58%;
+    }    
+
+    .cajon1{
+        background-size: 100% 100%;
+
+    }
+    /*-------------------------Aquí comieza la personalización de la caja 2 y tres ------------------------*/
+    .parrafoCajon2,.parrafoCajon3{
+
+        left: 25%;
+
+    }
+
+   .tituloCajon2,.tituloCajon3{
+       left: 30%;
+   } 
+   /*-----------------------------Aquí comienza la personalización de los sub cajones de la caja5-----------------*/
+    .titulo1c5,.titulo2c5,.titulo3c5,.titulo4c5{
+
+        left: 35%;
+    }
+
+    .parrafo1c5,.parrafo2c5,.parrafo3c5,.parrafo4c5{
+        left: 35%;
+    }
+
+    /*---------------------------Aquí comieza la personalización de la caja 6 --------------------------------*/
+    .parrafocajon6{
+        left: 25%;
+    }
+
+    .titulocajon6{
+        left: 35%;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1214px){
+    
+    /*-------------------------Aquí comienza la modificación para los elementos de la caja1------------------------------------*/
+     .tituloP{
+        left: 30%;
+    }
+
+    .tituloCajon4{
+        left: 46%;
+    }
+
+    .linea1{
+        left: 46%;
+    }
+    /*------------------------------------------Aquí personalizo la linea del cajon4-------------------------------*/
+    .linea2{
+        left: 52%;
+    }
+    /*------------------------------------------esto es lo unico que se toco del cajon4---------------------------*/
+    .parrafoP{
+        left: 30%;
+    }
+    .Lista{
+
+        left: 48%;
+    }    
+
+    .cajon1{
+        background-size: 100% 100%;
+
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    /*-------------------------Aquí comienza la modificación para los elementos de la caja2 y cajon 3------------------------------------*/
+    .parrafoCajon2,.parrafoCajon3{
+
+        left: 20%;
+
+    }
+
+    /*-------------------------Aquí comienza la modificación para los elementos de la caja4------------------------------------*/
+    .tituloCajon4{
+        left: 36%;
+    }
+
+    .linea2{
+        left: 45%;
+    }
+
+    .parrafoCajon4{
+        left: 26%;
+    }
+
+    .cosa44{
+        left: 27%;
+    }
+
+    /*-------------------------Aquí comienza la modificación para los elementos de la caja 2 y 3------------------------------------*/
+    .tituloCajon2,.tituloCajon3{
+       left: 25%;
+    } 
+
+
+    /*-------------------------Aquí comienza la modificación para los elementos de la caja 5------------------------------------*/
+
+    .titulo1c5,.titulo2c5,.titulo3c5,.titulo4c5{
+
+        left: 40%;
+    }
+
+    .parrafo1c5,.parrafo2c5,.parrafo3c5,.parrafo4c5{
+        font-size: 14px;
+        left: 40%;
+    }
+
+    /*-------------------------Aquí comienza la modificación para los elementos de la caja 6------------------------------------*/
+    .parrafocajon6{
+        left: 20%;
+    }
+
+    .titulocajon6{
+        left: 30%;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:999px) {
+    
+
+
+    /*-------------------------Aquí comienza la modificación para los elementos de la caja1------------------------------------*/
+    .tituloP{
+        left: 25%;
+    }
+
+    .linea1{
+        left: 45%;
+        min-width: 2px;
+    }
+
+    .parrafoP{
+        left: 27%;
+        bottom: 30%;
+    }
+
+    .Lista{
+        display: none;
+    }
+
+    .lanzador-menu{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: #d03b40;
+        display: block;
+        left: 80%;
+        top: 2%;
+    }
+
+    .a1,.a2,.a3{
+        left: 13%;
+        min-height: 5px;
+        width: 35px;
+    }
+
+    
+
+    /*-------------------------Aquí comienza la modificación para los elementos de la caja 2 y 3------------------------------------*/
+    .cajon2,.cajon3{
+        float: none;
+        width: 100%;
+        min-height: 500px;
+    }
+
+    .tituloCajon2,.tituloCajon3{
+        bottom: 50%;
+        left: 35%;       
+    }
+
+    .parrafoCajon2,.parrafoCajon3{
+        bottom: 33%;
+        left: 33%;
+    }
+
+    
+
+    /*-------------------------Aquí comienza la modificación para los elementos de la caja4------------------------------------*/
+
+
+    .tituloCajon4{
+        left: 39%;
+    }
+    
+    .parrafoCajon4{
+        left: 30%;
+    }
+
+    .cosa44{
+        left: 35%;
+    }
+
+    /*-------------------------Aquí comienza la modificación para los elementos de la caja 5 ------------------------------------*/
+
+    .cajon1C5,.cajon2C5,.cajon3C5,.cajon4C5{
+        float: none;
+        width: 100%;
+        min-height: 350px;
+        background-position: 5% 40%;
+        background-size: 200px auto;
+    }
+    .parrafo1c5,.parrafo2c5,.parrafo3c5,.parrafo4c5{
+        top: 25%;
+        left: 35%;
+        overflow: auto;
+    }
+
+    .titulo1c5,.titulo2c5,.titulo3c5,.titulo4c5{
+        left: 35%;
+        top: 15%;
+    }
+
+    /*--------------------------Aquí comienza la personalización de la caja 6 y 7 -------------------------------------------------*/
+
+    .cajon6,.cajon7{
+        float: none;
+        width: 100%;
+    }
+
+    .titulocajon6{
+        bottom: 40%;
+        left: 36%;
+    }
+
+    .parrafocajon6{
+        bottom: 20%;
+        left: 28%;
+    }
+
+    .titulocajon7{
+        left: 35%;
+    }
+
+    .parrafocajon7{
+        left: 42%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 699px){
+
+    /*-------------------------Aquí comienza la modificación para los elementos de la caja1------------------------------------*/
+    .lanzador-menu{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: #d03b40;
+        display: block;
+        left: 80%;
+        top: 2%;
+    }
+
+    .a1,.a2,.a3{
+        left: 13%;
+        min-height: 5px;
+        width: 35px;
+    }
+
+    .tituloP{
+
+        left: 16%;
+    }
+
+    .linea1{
+        left: 44%;
+        min-width: 2px;
+    }
+
+    .parrafoP{
+        left: 18%;
+        bottom: 30%;
+    }
+
+    .Lista{
+        display: none;
+    }
+
+    /*-------------------------Aquí comienza la modificación para los elementos de la caja 2 y 3------------------------------------*/
+    .cajon2,.cajon3{
+        float: none;
+        width: 100%;
+        min-height: 500px;
+    }
+
+    .tituloCajon2,.tituloCajon3{
+        bottom: 50%;
+        left: 30%;       
+    }
+
+    .parrafoCajon2,.parrafoCajon3{
+        bottom: 33%;
+        left: 28%;
+    }
+    /*-------------------------Aquí comienza la modificación para los elementos de la caja4------------------------------------*/
+    .tituloCajon4{
+        left: 30%;
+    }
+
+    .linea2{
+        left: 42%;
+    }
+
+    .parrafoCajon4{
+        left: 20%;
+    }
+
+    .cosa44{
+        left: 22%;
+    }
+    /*-------------------------Aquí comienza la modificación para los elementos de la caja 5 ------------------------------------*/
+
+    .cajon1C5,.cajon2C5,.cajon3C5,.cajon4C5{
+        float: none;
+        width: 100%;
+        min-height: 350px;
+        background-position: 50% 10%;
+        background-size: 150px auto;
+    }
+    
+
+    .parrafo1c5,.parrafo2c5,.parrafo3c5,.parrafo4c5{
+        top: 60%;
+        left: 35%;
+        overflow: auto;
+    }
+
+    .titulo1c5,.titulo2c5,.titulo3c5,.titulo4c5{
+        left: 35%;
+        top: 50%;
+    }
+
+    /*--------------------------Aquí comienza la personalización de la caja 6 y 7 -------------------------------------------------*/
+
+    .cajon6,.cajon7{
+        float: none;
+        width: 100%;
+    }
+
+    .titulocajon6{
+        bottom: 40%;
+        left: 36%;
+    }
+
+    .parrafocajon6{
+        bottom: 20%;
+        left: 28%;
+    }
+
+    .titulocajon7{
+        left: 35%;
+    }
+
+    .parrafocajon7{
+        left: 42%;
+    }
+
+}
+
+
+@media screen and (max-width: 599px){
+    /*-------------------------Aquí comienza la modificación para los elementos de la caja1------------------------------------*/
+    .lanzador-menu{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: #d03b40;
+        display: block;
+        left: 80%;
+        top: 2%;
+    }
+
+    .a1,.a2,.a3{
+        left: 13%;
+        min-height: 5px;
+        width: 35px;
+    }
+    h1{
+        font-size: 38px;
+    }
+    
+    .cajon1{
+
+        min-height: 500px;
+    }
+
+    .tituloP{
+        bottom: 65%;
+        left: 07%;
+    }
+
+    .linea1{
+        bottom: 63%;
+        left: 40%;
+        min-width: 2px;
+    }
+
+    .parrafoP{
+        top: 35%;
+        left: 9%;
+        bottom: 30%;
+    }
+
+    .Lista{
+        display: none;
+    }
+
+    /*-------------------------Aquí comienza la modificación para los elementos de la caja 2 y 3------------------------------------*/
+    .cajon2,.cajon3{
+        float: none;
+        width: 100%;
+        min-height: 300px;
+    }
+
+    .tituloCajon2,.tituloCajon3{
+        bottom: 48%;
+        left: 24%;       
+    }
+
+    .parrafoCajon2,.parrafoCajon3{
+        bottom: 26%;
+        left: 22%;
+    }
+    /*-------------------------Aquí comienza la modificación para los elementos de la caja4------------------------------------*/
+    .tituloCajon4{
+        left: 26%;
+        min-height: 50px;
+    }
+
+    .linea2{
+        left: 42%;
+    }
+
+    .parrafoCajon4{
+        left: 14%;
+        bottom: 50%;
+
+    }
+
+    .cosa44{
+        left: 16%;
+    }
+    /*-------------------------Aquí comienza la modificación para los elementos de la caja 5 ------------------------------------*/
+
+    .cajon1C5,.cajon2C5,.cajon3C5,.cajon4C5{
+        float: none;
+        width: 100%;
+        min-height: 350px;
+        background-position: 50% 10%;
+        background-size: 100px auto;
+    }
+    
+    h3{
+        font-size: 17px;
+    }
+
+    .parrafo1c5,.parrafo2c5,.parrafo3c5,.parrafo4c5{
+        top: 50%;
+        left: 24%;
+        overflow: auto;
+    }
+
+    .titulo1c5,.titulo2c5,.titulo3c5,.titulo4c5{
+        left: 24%;
+        top: 40%;
+    }
+
+    /*--------------------------Aquí comienza la personalización de la caja 6 y 7 -------------------------------------------------*/
+
+    .cajon6,.cajon7{
+        float: none;
+        width: 100%;
+        min-height: 300px;
+    }
+
+    .titulocajon6{
+        bottom: 44%;
+        left: 33%;
+    }
+
+    .parrafocajon6{
+        bottom: 20%;
+        left: 23%;
+    }
+
+    .titulocajon7{
+        left: 30%;
+    }
+
+    .parrafocajon7{
+        left: 39%;
+    }    
+}
